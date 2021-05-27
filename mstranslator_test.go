@@ -12,7 +12,7 @@ func TestTranslate(t *testing.T) {
 		Debug:  os.Stdout,
 	})
 
-	text, err := translate.Translate("Hello, World!", "", "ru")
+	text, err := translate.Translate("Hello, World!", "auto", "ru")
 
 	if err == nil {
 		if text != "Всем привет!" {

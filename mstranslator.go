@@ -53,6 +53,9 @@ func New(conf Config) *Translation {
 
 // Translate text from a language to another
 func (tr *Translation) Translate(source, sourceLang, targetLang string) (string, error) {
+	if sourceLang == "auto" {
+		sourceLang = ""
+	}
 
 	// Build the request URL. See: https://golang.org/pkg/net/url/#example_URL_Parse
 	uri, err := url.Parse(tr.Url)
