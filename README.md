@@ -1,11 +1,11 @@
 # Microsoft Text Translation
-Register for Microsoft Text Translation API ([see instructions](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-how-to-signup)). 
-Use the obtained subscription key to instantiate a translator as shown below.
-[API Docs](https://docs.microsoft.com/en-US/azure/cognitive-services/translator/)
+[API Docs](https://docs.microsoft.com/en-US/azure/cognitive-services/translator/)  
+Register for Microsoft Text Translation API ([see instructions](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-how-to-signup))  
+Use the obtained subscription key to instantiate a translator as shown below.  
 
 ### Install:
 ```
-go get -u github.com/snakesel/mstranslator"
+go get -u github.com/snakesel/mstranslator
 ```
 
 ### Example usage:
